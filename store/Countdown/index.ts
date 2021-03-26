@@ -1,7 +1,7 @@
 /* eslint-disable space-before-function-paren */
 import { State, Getters, Mutations, MutationsInterface } from './types';
 
-const MINUTES = 25;
+const MINUTES = 0.05;
 
 export const state = (): State => ({
 	time: MINUTES * 60,
