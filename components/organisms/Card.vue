@@ -22,6 +22,3 @@ export default Vue.extend({
 	computed: mapGetters('Challenges', ['currentChallenge']),
 });
 </script>
-
-<style>
-</style>
